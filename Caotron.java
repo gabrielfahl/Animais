@@ -18,7 +18,6 @@ class Caotron extends Robo implements Pet {
         return numeroSerie;
     }
 
-    @Override
     public void brincar() {
         System.out.println("Caotron está brincando");
     }

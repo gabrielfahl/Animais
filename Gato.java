@@ -2,12 +2,10 @@ class Gato extends Felino implements Pet {
     private String nome;
     private String raca;
 
-    @Override
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    @Override
     public String getNome() {
         return nome;
     }

@@ -18,7 +18,6 @@ class Mechanigato extends Robo implements Pet {
         return numeroSerie;
     }
 
-    @Override
     public void brincar() {
         System.out.println("Mechanigato está brincando");
     }
